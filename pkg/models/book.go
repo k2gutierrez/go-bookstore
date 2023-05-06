@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/jinzhu/gorm"
 	"github.com/k2gutierrez/go-bookstore/pkg/config"
+	"gorm.io/gorm"
 )
 
 var db *gorm.DB
